@@ -41,4 +41,4 @@ Demo Working of our Project - https://shopify-cloths.web.app/
 
 # 
 <br/>
-<img src="https://user-images.githubusercontent.com/54505967/106492276-bf99a680-64dd-11eb-8177-c07231160c0a.png" style="width : 100%;"/>
+<img src="https://user-images.githubusercontent.com/82502492/117462038-d97ad780-af6b-11eb-8a17-2d1a322fd740.PNG" style="width : 100%;"/>
