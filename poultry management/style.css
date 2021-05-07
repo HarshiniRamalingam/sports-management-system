@@ -1,0 +1,133 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.bgimage{
+	background-image: url('bg1.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 700px;
+	z-index: -1;
+}
+
+.menu{
+	width: 100%;
+	height: 80px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.leftmenu{
+	width: 25%;
+	line-height: 80px;
+	float: left;
+}
+
+.leftmenu h4{
+	padding-left: 70px;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+	font-family: 'Montserrat', Sans-Serif;
+}
+
+.rightmenu{
+	width:70%;
+	height: 100px;
+	float: right;
+}
+
+.rightmenu ul{
+	margin-left: 200px;
+}
+
+.rightmenu ul li{
+	font-family: 'Montserrat', Sans-Serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	line-height: 40px;
+	margin-left: 40px;	
+	text-transform: uppercase;
+}
+
+.rightmenu ul li a{
+		text-decoration: none;
+		color: black;
+}
+
+.active, .rightmenu ul li:hover{
+	background: white;
+}
+
+.rightmenu .fa{
+		margin-right:8px;
+}
+
+.sub-menu{
+	display:none;
+}
+
+.rightmenu ul li:hover .sub-menu{
+	display:block;
+	position:absolute;
+	background:rgb(0,100,0);
+	margin-top:15px;
+	margin-left:-15px;
+}
+
+.rightmenu ul li:hover .sub-menu ul{
+	display: block;
+	margin: 10px;
+	background: #F4C2C2;
+}
+
+.rightmenu ul li:hover .sub-menu ul li{
+	width: 80px;
+	padding: 20px;
+	border-bottom: 1px dotted white;
+	background: transparent;
+	border-radius: 0;
+	text-align: leftt;
+}
+
+.rightmenu ul li:hover .sub-menu ul li a:hover{
+	color: black;
+}
+
+#firstlist{
+	color: orange;	
+}
+
+.rightmenu ul li:hover{
+	color: orange;
+}
+
+
+.text{
+	width: 100%;
+	margin-top: 185px;
+	/*text-transform: uppercase;*/
+	text-align: center;
+	color: black;
+}
+
+.text h4{
+	font-size: 14px;
+	font-family: 'Open Sans',Sans-Serif;
+}
+
+.text h1{
+	font-size: 60px;
+	font-family: 'Montserrat', Sans-Serif;
+	font-weight: 700px;
+	margin: 14px 0px;
+	
+}
+
+.text h3{
+	font-size: 12px;
+	font-family: 'Open Sans',Sans-Serif;
+}
